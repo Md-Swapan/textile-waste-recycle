@@ -1,3 +1,29 @@
 .principle_of_textile_section{
   margin-top: 80px;
+  text-align: center;
+}
+.principle_of_textile_title h1{
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.principle_of_textile_img_container{
+  width: 100%;
+  display: flex;
+  justify-content: center
+}
+.principle_of_textile_img{
+  width: 40%;
+  height: auto;
+}
+
+.principle_of_textile_content{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top:80px
+}
+
+.principle_of_textile_content_div{
+  border: 1px solid gainsboro;
+  padding:20px
 }

@@ -1,0 +1,20 @@
+.textile_waste_management_title{
+  text-align: center;
+}
+.global_textile_waste_management_content{
+  text-align: center;
+}
+.textile_waste_management_img_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 30px 0px;
+}
+
+.textile_waste_management_img_div{
+  height: 260px;
+  overflow: hidden;
+}
+.textile_waste_management_img{
+  height: auto;
+}

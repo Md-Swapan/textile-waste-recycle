@@ -26,17 +26,17 @@ const Navbar = () => {
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#">
-                  About
+                  Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                 Experience
+                 News & About
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                 work
+                recycling Resource
                 </a>
               </li>
               <li className="nav-item">

@@ -2,6 +2,7 @@ import React from "react";
 import "./ShowcaseSection.css";
 import Image from "next/image";
 import showcaseImg from "../../../../assets/textile-waste-1.jpg";
+import BusinessInfo from "../BusinessInfo/BusinessInfo";
 // import showcaseImg2 from "../../../../assets/black-and-white-cardigan-sweater-close-up-236028.jpg";
 // import Slider from "react-slick";
 
@@ -51,7 +52,9 @@ const ShowcaseSection = () => {
             </div>
           </div>
         </div>
+
       </div>
+        <BusinessInfo/>
     </>
   );
 };

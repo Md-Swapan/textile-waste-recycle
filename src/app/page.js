@@ -6,6 +6,7 @@ import ShowcaseSection from "./components/HomePageSectionComponents/ShowcaseSect
 import GlobalTextileWaste from "./components/HomePageSectionComponents/GlobalTextileWaste/GlobalTextileWaste";
 import RecyclingFacilities from "./components/HomePageSectionComponents/RecyclingFacilities/RecyclingFacilities";
 import PrincipleInTextile from "./components/HomePageSectionComponents/PrincipleInTextile/PrincipleInTextile";
+import OfferingWasteMangement from "./components/HomePageSectionComponents/OfferingWasteMangement/OfferingWasteMangement";
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
         <RecyclingFacilities/>
         <div className="container">
           <PrincipleInTextile/>
+          <OfferingWasteMangement/>
         </div>
     </main>
   );
