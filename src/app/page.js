@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import ShowcaseSection from "./components/HomePageSectionComponents/ShowcaseSection/ShowcaseSection";
 import GlobalTextileWaste from "./components/HomePageSectionComponents/GlobalTextileWaste/GlobalTextileWaste";
 import RecyclingFacilities from "./components/HomePageSectionComponents/RecyclingFacilities/RecyclingFacilities";
+import PrincipleInTextile from "./components/HomePageSectionComponents/PrincipleInTextile/PrincipleInTextile";
 
 export default function Home() {
   useEffect(() => {
@@ -18,6 +19,9 @@ export default function Home() {
         <GlobalTextileWaste />
       </div>
         <RecyclingFacilities/>
+        <div className="container">
+          <PrincipleInTextile/>
+        </div>
     </main>
   );
 }
