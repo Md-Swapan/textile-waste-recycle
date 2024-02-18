@@ -1,0 +1,48 @@
+.global_textile_waste_section{
+  margin-top: 80px;
+}
+.global_textile_waste_content_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+
+.textile_waste_img_container{
+  width: 100%;
+}
+.textile_waste_img{
+  width: 100%;
+  height: auto;
+}
+
+.global_textile_waste_title{
+  font-weight: 800;
+}
+
+
+.global_textile_waste_grid_view_container {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid rgb(238, 238, 238);
+  background: #f6f7f5;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+.item3 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}

@@ -1,0 +1,46 @@
+.showcase_section {
+  height: 800px;
+  position: relative;
+  background-image: linear-gradient(#5c5c5c60, #5c5c5c6b),
+    linear-gradient(#5c5c5c30, #5c5c5c30),
+    url("../../../../assets/black-and-white-cardigan-sweater-close-up-236028.jpg");
+  background-size: cover;
+}
+.showcase_section::before,
+.showcase_section::after {
+  height: 800px;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30%;
+  right: 0;
+  background-color: #3a4256;
+  opacity: 0.5;
+}
+.showcase_section_content {
+  margin-top: 200px;
+  color: white;
+}
+.showcase_section_content h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+.showcase_section_content .btn_container button {
+  border: 1px solid gainsboro;
+  background: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 15px;
+}
+.showcase_img_container {
+  position: relative;
+}
+.showcase_img {
+  width: 100%;
+  height: auto;
+  margin-top: 170px;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 999 !important;
+  position: absolute;
+}

@@ -1,0 +1,26 @@
+.recycling_facilities_section{
+  margin-top: 80px;
+
+  height: 500px;
+  position: relative;
+  background-image: linear-gradient(#03030381, #03030381),
+    linear-gradient(#03030381, #03030381),
+    url("../../../../assets/textiles-03-2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.recycling_facilities_content{
+  padding-top: 70px;
+}
+.recycling_facilities_content h1{
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.recycling_facilities_content li{
+  margin: 10px 0px;
+}
+.recycling_facilities_content li strong{
+  color: aqua;
+}
