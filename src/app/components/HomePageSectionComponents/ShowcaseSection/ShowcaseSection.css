@@ -25,12 +25,18 @@
   font-weight: 800;
   font-size: 45px;
 }
+.highlight_title{
+  color : rgb(19, 190, 190);
+}
 .showcase_section_content .btn_container button {
   border: 1px solid gainsboro;
   background: none;
-  color: white;
+  color: rgb(19, 190, 190);
   padding: 10px 20px;
   margin-right: 15px;
+}
+.learn_more{
+  color: rgb(255, 255, 255) !important;
 }
 .showcase_img_container {
   position: relative;
@@ -38,7 +44,7 @@
 .showcase_img {
   width: 100%;
   height: auto;
-  margin-top: 170px;
+  margin-top: 180px;
   border-radius: 20px;
   overflow: hidden;
   z-index: 999 !important;

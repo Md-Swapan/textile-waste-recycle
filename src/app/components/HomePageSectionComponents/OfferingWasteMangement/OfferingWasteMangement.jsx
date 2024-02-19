@@ -39,6 +39,15 @@ const OfferingWasteMangement = () => {
                 src={textileWasteImg}
                 alt=""
               />
+              <div className="depDetail_text">
+                <h5 className="mt-5">Lorem ipsum dolor sit.</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                  dolor ex aliquam commodi repellendus voluptatum, eius
+                  repudiandae cum?
+                </p>
+                <button type="">Read More</button>
+              </div>
             </div>
             <div className="textile_waste_management_img_div">
               <Image
@@ -46,6 +55,15 @@ const OfferingWasteMangement = () => {
                 src={textileWasteImg2}
                 alt=""
               />
+              <div className="depDetail_text">
+                <h5 className="mt-5">Lorem ipsum dolor sit amet.</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+                  architecto hic dolor incidunt at. Quia, eius. Exercitationem
+                  corporis eligendi vero.
+                </p>
+                <button type="">Read More</button>
+              </div>
             </div>
             <div className="textile_waste_management_img_div">
               <Image
@@ -53,6 +71,14 @@ const OfferingWasteMangement = () => {
                 src={textileWasteImg3}
                 alt=""
               />
+              <div className="depDetail_text">
+                <h5 className="mt-5">Lorem, ipsum dolor.</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  quibusdam distinctio, voluptatum alias cum quisquam!
+                </p>
+                <button type="">Read More</button>
+              </div>
             </div>
           </div>
         </div>

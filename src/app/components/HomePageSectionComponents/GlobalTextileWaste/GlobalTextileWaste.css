@@ -4,7 +4,7 @@
 .global_textile_waste_content_container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
+  grid-gap: 35px;
 }
 
 .textile_waste_img_container{
@@ -16,9 +16,14 @@
 }
 
 .global_textile_waste_title{
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
 }
-
+.global_textile_waste_content_list{
+  font-size: 16px;
+  line-height: 1.5rem;
+}
 
 .global_textile_waste_grid_view_container {
   display: grid;

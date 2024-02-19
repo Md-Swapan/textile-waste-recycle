@@ -19,11 +19,11 @@ export default function Home() {
       <div className="container">
         <GlobalTextileWaste />
       </div>
-        <RecyclingFacilities/>
-        <div className="container">
-          <PrincipleInTextile/>
-          <OfferingWasteMangement/>
-        </div>
+      <RecyclingFacilities />
+      <div className="container">
+        <PrincipleInTextile />
+        <OfferingWasteMangement />
+      </div>
     </main>
   );
 }

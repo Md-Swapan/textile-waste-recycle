@@ -12,8 +12,9 @@ const GlobalTextileWaste = () => {
           </div>
           <div className="global_textile_waste_content">
             <h1 className="global_textile_waste_title">
-              Global Fashion Industry Waste
+              Global Fashion Industry Waste:
             </h1>
+
             <ul className="global_textile_waste_content_list">
               <li>
                 Up to <strong>100 billion</strong> garments are produced by the
@@ -63,10 +64,27 @@ const GlobalTextileWaste = () => {
           </div> */}
           <div class="global_textile_waste_grid_view_container">
             <div class="grid-item item1">
-              <div className="d-flex justify-content-between">
-                <small className="">Up to</small>
+              <div className="d-flex justify-content-around">
+                <h5
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    color: "#3A4256",
+                  }}
+                >
+                  Up to
+                </h5>
                 <div className="">
-                  <p className="">100 BiLLION</p>
+                  <h2
+                    className=""
+                    style={{
+                      fontWeight: "800",
+                      fontSize: "40px",
+                      color: "#3A4256",
+                    }}
+                  >
+                    100 BiLLION
+                  </h2>
                   <small className="">new garments are made each year</small>
                 </div>
                 <div className="">
@@ -83,27 +101,51 @@ const GlobalTextileWaste = () => {
                 <dir>
                   <img src="https://i.ibb.co/7R0QKLN/Capture3.png" alt="" />
                 </dir>
-                <p className="">
-                  Of materials used to make clothing
+                <p className="">Of materials used to make clothing</p>
+                <p
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    fontSize: "20px",
+                    color: "#3A4256",
+                  }}
+                >
+                  END UP IN <br /> LANDFILL
                 </p>
-                <p className="">END UP IN LANDFILL</p>
+
                 <div>
                   <img src="https://i.ibb.co/SNHNTTd/Capture7.png" alt="" />
                 </div>
                 <p className="">Thats one truckload</p>
-                <p className="">EVERY SECOND</p>
+                <p
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    fontSize: "15px",
+                    color: "#3A4256",
+                  }}
+                >
+                  EVERY SECOND
+                </p>
               </div>
             </div>
             <div class="grid-item item3">
-              <div className="d-flex justify-content-between">
+              <div className="d-flex justify-content-around">
                 <div>
                   <img src="https://i.ibb.co/yB8bsgV/Captur1.png" alt="" />
                 </div>
                 <div className="">
                   <p className="">The World Produces</p>
-                  <p className="">
+                  <h2
+                    className=""
+                    style={{
+                      fontWeight: "800",
+                      fontSize: "40px",
+                      color: "#3A4256",
+                    }}
+                  >
                     92 Million Tons
-                  </p>
+                  </h2>
                   <p className="">of textile waste every year</p>
                 </div>
               </div>
@@ -111,23 +153,35 @@ const GlobalTextileWaste = () => {
             <div class="grid-item item4">
               <div className="">
                 <img src="https://i.ibb.co/cCKgj3r/Capture10.png" alt="" />
-                <p className="">
-                  of all new clothing materials are actually
-                </p>
-                <p className="">PLASTIC</p>
+                <p className="">of all new clothing materials are actually</p>
+
+                <h2
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    fontSize: "20px",
+                    color: "#3A4256",
+                  }}
+                >
+                  PLASTIC
+                </h2>
               </div>
             </div>
             <div class="grid-item item5">
               <div className="">
-                <p className="">
-                  Textile Production Causes
-                </p>
-                <p className="">
+                <p className="">Textile Production Causes</p>
+
+                <h2
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    fontSize: "30px",
+                    color: "#3A4256",
+                  }}
+                >
                   42 MILLION TONS
-                </p>
-                <p className="">
-                  Of plastic waste per year and contributes
-                </p>
+                </h2>
+                <p className="">Of plastic waste per year and contributes</p>
                 <img src="https://i.ibb.co/CPswFmC/Capture11.png" alt="" />
                 <p className="">
                   Of annual microplastic pollution added to our oceans
@@ -138,8 +192,26 @@ const GlobalTextileWaste = () => {
               <div className="">
                 <img src="https://i.ibb.co/tD92JYw/Capture6.png" alt="" />
                 <p className="">Of clothes are</p>
-                <p className="">RECYCLE INTO</p>
-                <p className="">NEW GARMENTS</p>
+                <p
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    fontSize: "15px",
+                    color: "#3A4256",
+                  }}
+                >
+                  RECYCLE INTO
+                </p>
+                <p
+                  className=""
+                  style={{
+                    fontWeight: "800",
+                    fontSize: "15px",
+                    color: "#3A4256",
+                  }}
+                >
+                  NEW GARMENTS
+                </p>
               </div>
             </div>
           </div>

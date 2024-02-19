@@ -16,11 +16,11 @@
 }
 .recycling_facilities_content h1{
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .recycling_facilities_content li{
   margin: 10px 0px;
 }
 .recycling_facilities_content li strong{
-  color: aqua;
+  color: rgb(19, 190, 190);
 }

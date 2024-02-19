@@ -2,23 +2,18 @@
   height: 80px;
   background-color: rgb(235, 235, 235);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 0px 20px;
+ 
 }
 .navbar-nav {
   margin-left: auto;
 }
 .logo {
-  height: 40px;
+  height: 45px;
   width: auto;
+  margin-left: -10px;
 }
 .navbar-nav li a {
   color: rgb(63, 63, 63);
-  margin: 0px 15px;
+  margin-left: 25px;
 }
-/* .navbar-nav button{
-  border: 1px solid rgb(100,255,218);
-  color: rgb(100,255,218);
-  background: none;
-  font-size: 14px;
-  padding: 0px 20px;
-} */
+

@@ -2,14 +2,19 @@
   margin-top: 80px;
   text-align: center;
 }
+.principle_of_textile_title{
+  /* width: 50%;
+  margin: auto; */
+}
 .principle_of_textile_title h1{
-  margin-bottom: 40px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .principle_of_textile_img_container{
   width: 100%;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  margin-top: 40px;
+
 }
 .principle_of_textile_img{
   width: 40%;
@@ -25,5 +30,87 @@
 
 .principle_of_textile_content_div{
   border: 1px solid gainsboro;
-  padding:20px
+  padding:20px;
+  text-align: left;
+  position: relative;
+}
+.principle_of_textile_content_div h4{
+  font-weight: 600;
+  color: rgb(19, 190, 190);
+}
+.principle_of_textile_content_div button{
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: rgb(19, 190, 190);
+}
+
+
+.principle_of_textile_content_div span{
+  display: block;
+  position: absolute;
+  background: #0fcfec;
+}
+
+.principle_of_textile_content_div span:nth-child(1){
+		left: 0;
+    bottom: 0;
+		width: 1px;
+		height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+.principle_of_textile_content_div:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.principle_of_textile_content_div span:nth-child(2){
+  /* margin-bottom: -.5px; */
+		left: 0;
+    bottom: 0;
+		width: 100%;
+		height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.principle_of_textile_content_div:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: Left;
+    transition: transform 0.5s;
+}
+.principle_of_textile_content_div span:nth-child(3){
+		right: 0;
+    bottom: 0;
+		width: 1px;
+		height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.4s;
+}
+.principle_of_textile_content_div:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.4s;
+}
+.principle_of_textile_content_div span:nth-child(4){
+  margin-top: -1px;
+		top: 0;
+    left: 0;
+		width: 100%;
+		height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.4s;
+}
+.principle_of_textile_content_div:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.4s;
 }

@@ -1,20 +1,54 @@
-.textile_waste_management_title{
+.textile_waste_management_title {
+  text-align: center;
+  font-weight: 600;
+}
+.global_textile_waste_management_content {
   text-align: center;
 }
-.global_textile_waste_management_content{
-  text-align: center;
-}
-.textile_waste_management_img_container{
+.textile_waste_management_img_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   margin: 30px 0px;
 }
 
-.textile_waste_management_img_div{
+.textile_waste_management_img_div {
   height: 260px;
   overflow: hidden;
+  position: relative;
 }
-.textile_waste_management_img{
+.textile_waste_management_img {
   height: auto;
+  transition: all 0.5s;
+}
+.depDetail_text {
+  position: absolute;
+  display: none;
+  top: 0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+
+  /* display: block;
+  background-image: linear-gradient(75deg, #19d3ae8c, #0fceecab);
+  width: 100%;
+  height: 100%;
+  color: #ffffff; */
+}
+.depDetail_text button {
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  background-color: #0e1a4200;
+  color: #ffffff;
+}
+.textile_waste_management_img_div:hover .textile_waste_management_img {
+  transform: scale(1.1);
+}
+
+.textile_waste_management_img_div:hover .depDetail_text {
+  display: block;
+  background-image: linear-gradient(75deg, #19d3ae8c, #0fceecab);
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
 }

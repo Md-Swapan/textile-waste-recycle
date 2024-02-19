@@ -36,12 +36,17 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                recycling Resource
+                Recycling Resource
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                contact
+                Work with Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                Contact
                 </a>
               </li>
             </ul>
