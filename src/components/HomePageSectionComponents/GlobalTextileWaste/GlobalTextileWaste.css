@@ -33,7 +33,7 @@
 .grid-item {
   border: 1px solid rgb(238, 238, 238);
   background: #f6f7f5;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   text-align: center;
   padding: 40px 20px;
 }

@@ -43,6 +43,10 @@
   background: none;
   font-size: 16px;
   color: rgb(19, 190, 190);
+  transition: all .3s;
+}
+.principle_of_textile_content_div:hover button{
+  margin-left: 10px;
 }
 
 

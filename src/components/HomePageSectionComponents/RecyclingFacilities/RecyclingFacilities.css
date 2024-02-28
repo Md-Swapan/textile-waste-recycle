@@ -5,7 +5,7 @@
   position: relative;
   background-image: linear-gradient(#03030381, #03030381),
     linear-gradient(#03030381, #03030381),
-    url("../../../../assets/textiles-03-2.png");
+    url("../../../assets/textiles-03-2.png");
   background-size: cover;
   background-attachment: fixed;
   color: white;

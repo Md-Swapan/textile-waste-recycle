@@ -1,7 +1,7 @@
 import React from "react";
-import textileWasteImg from "../../../../assets/LAROCHE-SHANGHAI-TEXINTEL.jpg";
-import textileWasteImg2 from "../../../../assets/resize.jpg";
-import textileWasteImg3 from "../../../../assets/Waste-opener-Margasa-Recycling-at-FILOTEX-Ltd.jpg";
+import textileWasteImg from "../../../assets/LAROCHE-SHANGHAI-TEXINTEL.jpg";
+import textileWasteImg2 from "../../../assets/resize.jpg";
+import textileWasteImg3 from "../../../assets/Waste-opener-Margasa-Recycling-at-FILOTEX-Ltd.jpg";
 import Image from "next/image";
 import "./OfferingWasteManagement.css";
 

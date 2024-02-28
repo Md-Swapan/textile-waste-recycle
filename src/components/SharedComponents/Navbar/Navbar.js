@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "./Navbar.css";
-import logo from "../../../../assets/png-clipart-recycling-symbol-paper-plastic-recycling-bin-symbol-miscellaneous-blue-removebg-preview.png"
+import logo from "../../../assets/png-clipart-recycling-symbol-paper-plastic-recycling-bin-symbol-miscellaneous-blue-removebg-preview.png"
 import Image from "next/image";
 
 const Navbar = () => {

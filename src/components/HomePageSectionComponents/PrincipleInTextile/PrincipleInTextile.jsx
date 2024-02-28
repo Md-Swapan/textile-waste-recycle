@@ -1,6 +1,6 @@
 import React from "react";
 import "./PrincipleTextile.css";
-import rImg from "../../../../assets/Textile-waste-treatment-strategies-3R-concept.jpg";
+import rImg from "../../../assets/Textile-waste-treatment-strategies-3R-concept.jpg";
 import Image from "next/image";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 

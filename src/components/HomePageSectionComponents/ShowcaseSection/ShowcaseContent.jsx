@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import showcaseImg from "../../../../assets/black-and-white-cardigan-sweater-close-up-236028.jpg";
+// import showcaseImg from "../../../../assets/black-and-white-cardigan-sweater-close-up-236028.jpg";
 import "./ShowcaseSection.css";
 
 const ShowcaseContent = () => {

@@ -1,7 +1,7 @@
 import { Montserrat, Rubik } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/SharedComponents/Navbar/Navbar";
-import Footer from "./components/SharedComponents/Footer/Footer";
+import Navbar from "@/components/SharedComponents/Navbar/Navbar";
+import Footer from "@/components/SharedComponents/Footer/Footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 const rubik = Rubik({ subsets: ["latin"] });

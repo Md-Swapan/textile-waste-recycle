@@ -1,7 +1,7 @@
 import React from "react";
 import "./ShowcaseSection.css";
 import Image from "next/image";
-import showcaseImg from "../../../../assets/textile-waste-1.jpg";
+// import showcaseImg from "../../../../assets/textile-waste-1.jpg";
 import BusinessInfo from "../BusinessInfo/BusinessInfo";
 // import showcaseImg2 from "../../../../assets/black-and-white-cardigan-sweater-close-up-236028.jpg";
 import Slider from "react-slick";
@@ -24,7 +24,7 @@ const ShowcaseSection = () => {
       <div className="showcase_section">
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-6">
               <div className="showcase_section_content">
                 <p className="">Lorem ipsum dolor sit amet.</p>
                 <h1 className="title mt-5">
@@ -48,10 +48,10 @@ const ShowcaseSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-7">
+            <div className="col-md-6">
               <div className="showcase_img_container">
                 {/* <Slider {...settings} className="slider"> */}
-                <Image className="showcase_img" src={showcaseImg} alt="" />
+                {/* <Image className="showcase_img" src={showcaseImg} alt="" /> */}
                 {/* <Image className="showcase_img" src={showcaseImg} alt="" /> */}
                 {/* </Slider> */}
               </div>

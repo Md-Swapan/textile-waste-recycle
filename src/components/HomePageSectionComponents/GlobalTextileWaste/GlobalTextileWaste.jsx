@@ -1,5 +1,5 @@
 import Image from "next/image";
-import textileWasteImg from "../../../../assets/Clothing-for-Recycling.jpg";
+import textileWasteImg from "../../../assets/Clothing-for-Recycling.jpg";
 import "./GlobalTextileWaste.css";
 
 const GlobalTextileWaste = () => {
